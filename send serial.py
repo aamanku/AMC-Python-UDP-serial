@@ -49,3 +49,4 @@ if __name__=='__main__':
             sock.sendto(data, ('192.168.2.104',6969))#ip of target pc
             print('Sent command: ',data)
             old_time=time.time()
+            breakpoint()
